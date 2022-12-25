@@ -7,8 +7,58 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="root">
-        <h1>welcome to React</h1>
-    </div>
+    <!-- 1. Add heading tag using html -->
+    <!-- 
+        <div id="root"><h1>welcome to react</h1></div> 
+    -->
+
+    <div id="root"></div>
   </body>
+
+  <!-- 2. Add heading tag using JS code -->
+  <!-- 
+    <script>
+        const addH1Tag = document.createElement("h1");
+        addH1Tag.innerHTML = "welcome to JS code";
+
+        const getRoot = document.getElementById("root");
+
+        getRoot.appendChild(addH1Tag);
+    </script> 
+  -->
+
+  <!-- 3. Add heading tag using React -->
+
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+
+  <script>
+    const heading = React.createElement(
+      "h1",
+      { className: "heading" },
+      "welcome to React js from CDN React",
+      React.createElement(
+        "li",
+        { id: "list2" },
+        "Item 1"
+      ),
+      React.createElement(
+        "li",
+        { id: "list2" },
+        "Item 2"
+      )
+    );
+
+    console.log(heading)
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+
+    root.render(heading);
+  </script>
 </html>
