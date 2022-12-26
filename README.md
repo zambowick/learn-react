@@ -1,5 +1,5 @@
 # learn-react
-Learn React
+
 
 # What is Emmet?
     * Emmet is a plug-in for text editors, which contains a shortcuts to build a code. 
@@ -18,3 +18,5 @@ Learn React
 
 # Why is react known as react?
     * It reacts only to the specific element where it needs to react, instead of reacting the whole unwanted elements
+
+# What is Crossorigin in Script tag?
