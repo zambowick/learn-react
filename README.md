@@ -2,12 +2,12 @@
 
 # Contents
 
-    + [What is Emmet?](https://github.com/zambowick/learn-react#what-is-emmet)
-    + Difference between Library and Framework
-    + What is CDN?
-    + Why do we use CDN?
-    + Why is react known as react?
-    + What is Crossorigin in Script tag?
++ [What is Emmet?](https://github.com/zambowick/learn-react#what-is-emmet)
++ Difference between Library and Framework
++ What is CDN?
++ Why do we use CDN?
++ Why is react known as react?
++ What is Crossorigin in Script tag?
 
 
 # What is Emmet?
