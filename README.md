@@ -30,3 +30,4 @@
 * It reacts only to the specific element where it needs to react, instead of reacting the whole unwanted elements
 
 # What is Crossorigin in Script tag?
+test
